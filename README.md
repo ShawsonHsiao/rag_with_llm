@@ -19,9 +19,7 @@ The project is designed to run fully locally without calling external APIs.
 
 # Project Setup
 
-Create an environment before installing dependencies.
-
-Install the required Python dependencies using the provided environment file.
+Create an environment and install the required Python dependencies using the provided environment file.
 
 `pip install -r environment.txt`
 
