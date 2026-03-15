@@ -6,6 +6,8 @@ The system retrieves relevant document chunks and uses a **local LLM** to genera
 
 The project is designed to run fully locally without calling external APIs.
 
+The total storage required for this project is approximately 4.2 GB.
+
 ---
 
 # Workflow Summary
@@ -43,6 +45,11 @@ RAG/
 The project uses **Qwen3-Embedding-0.6B** as the embedding model and **Qwen3-4B-Instruct** as the language model (LLM).
 
 If the models are not already present, they will be automatically downloaded when main.py is executed.
+
+The first-time download of Qwen3-4B-Instruct may be slow.
+If the download takes too long, you can manually download the model from the following page:[https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF](https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF?show_file_info=Qwen3-4B-Instruct-2507-Q6_K.gguf)
+
+Download the `.gguf` model file and place it in the `models/` folder.
 
 # Running the Project
 
